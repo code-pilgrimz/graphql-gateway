@@ -3,3 +3,4 @@
 - tidy up
 - off-by-one, fixed
 - revisit later
+- minor wording
