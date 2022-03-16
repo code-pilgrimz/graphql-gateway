@@ -4,3 +4,4 @@
 - off-by-one, fixed
 - revisit later
 - minor wording
+- tidy up
