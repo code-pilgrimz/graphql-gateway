@@ -7,3 +7,4 @@ class Store {
 }
 module.exports = Store;
 // check perf here
+// TODO clean this
