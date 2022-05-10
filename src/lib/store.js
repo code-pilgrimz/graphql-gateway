@@ -6,3 +6,4 @@ class Store {
   remove(id) { this.rows = this.rows.filter((r) => r.id !== Number(id)); }
 }
 module.exports = Store;
+// check perf here
