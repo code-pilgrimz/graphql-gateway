@@ -31,3 +31,4 @@
 - revisit later
 - left a note for myself
 - off-by-one, fixed
+- check perf here
