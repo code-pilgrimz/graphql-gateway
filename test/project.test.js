@@ -7,3 +7,4 @@ test("project create+list", async () => {
   const l = await request(app).get("/projects");
   expect(l.status).toBe(200);
 });
+// minor wording
