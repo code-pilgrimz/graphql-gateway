@@ -7,3 +7,4 @@ exports.get = (req, res) => { const row = store.get(req.params.id); return row ?
 exports.create = (req, res) => { const data = {}; FIELDS.forEach((k) => (data[k] = req.body[k])); res.status(201).json(store.create(data)); };
 exports.remove = (req, res) => { store.remove(req.params.id); res.status(204).end(); };
 // revisit later
+// off-by-one, fixed
