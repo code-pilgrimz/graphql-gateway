@@ -9,3 +9,4 @@ router.delete("/:id", wrap(c.remove));
 
 module.exports = router;
 // minor wording
+// check perf here
