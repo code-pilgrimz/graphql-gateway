@@ -43,3 +43,4 @@
 - off-by-one, fixed
 - tidy up
 - left a note for myself
+- check perf here
