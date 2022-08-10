@@ -10,3 +10,4 @@ exports.remove = (req, res) => { store.remove(req.params.id); res.status(204).en
 // tidy up
 // revisit later
 // off-by-one, fixed
+// minor wording
