@@ -7,3 +7,4 @@ test("invoice create+list", async () => {
   const l = await request(app).get("/invoices");
   expect(l.status).toBe(200);
 });
+// off-by-one, fixed
