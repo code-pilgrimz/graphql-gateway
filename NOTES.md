@@ -67,3 +67,4 @@
 - left a note for myself
 - TODO clean this
 - revisit later
+- minor wording
