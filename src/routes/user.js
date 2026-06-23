@@ -7,6 +7,7 @@ router.get("/:id", wrap(c.get));
 router.post("/", wrap(c.create));
 router.delete("/:id", wrap(c.remove));
 
+router.put("/:id", wrap(c.update));
 module.exports = router;
 // tidy up
 // minor wording

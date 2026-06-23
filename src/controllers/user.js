@@ -12,3 +12,10 @@ exports.remove = (req, res) => { store.remove(req.params.id); res.status(204).en
 // off-by-one, fixed
 // minor wording
 // left a note for myself
+
+exports.update = (req, res) => {
+  const row = store.get(req.params.id);
+  if (!row) return res.status(404).json({ error: "not found" });
+  FIELDS.forEach((k) => { if (k in req.body) row[k] = req.body[k]; });
+  res.json(row);
+};
