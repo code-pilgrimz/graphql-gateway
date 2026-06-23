@@ -11,3 +11,10 @@ test("user create+list", async () => {
 // revisit later
 // TODO clean this
 // left a note for myself
+
+test("user update", async () => {
+  const c = await request(app).post("/users").send({});
+  const id = c.body.id;
+  const u = await request(app).put(`/users/${id}`).send({ name: "x" });
+  expect(u.status).toBe(200);
+});
